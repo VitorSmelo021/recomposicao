@@ -73,6 +73,8 @@ main{
     width: 200px;
     height: 40px;
     font-size: 15px;
+    font-weight: 500;
+
 }
 #caixa-button button:hover{
     background-color: var(--indigo);
@@ -125,4 +127,35 @@ main{
     height: 6px;
     border-radius: 10px;
     background-color: var(--indigo);
+}
+.mais{
+    display: flex;
+    justify-content: center;
+}
+.mais button{
+    background: none;
+    align-items: center;
+    border-radius: 30px ;
+    border: solid 2px var(--indigo);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 227px;
+    height: 45px;
+    font-size: 18px;
+}
+.mais button:hover{
+    background-color: var(--indigo);
+}
+.direitos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.direitos p{
+    font-weight: bolder;
+}
+.icons{
+    display: flex;
+    gap: 20px;
 }
